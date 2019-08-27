@@ -13,22 +13,21 @@ int main(){
 
     //strlen
 
-    /*char texto[]="Luis";
+    char texto[]="Luis";
     int longitud;
 
     longitud = strlen(texto);
     printf("La longitud es: %i\n", longitud);
 
-    return 0;*/
+    return 0;
 
     //strcopy
 
-    /*char texto[] = "Éste es un curso de C.";
+    char texto[] = "Éste es un curso de C.";
 	char destino[50];
 
 	strcpy( destino, texto );
-	printf( "Valor final: %s\n", destino );*/
-
+	printf( "Valor final: %s\n", destino );
     //strcat
     /*char nombre_completo[50];
 	char nombre[]="Luis";
