@@ -35,7 +35,7 @@ int main(){
         case 3:
         for (int i = 0; i < 2; i++){
         printf("Código\tNombre\t\tPrecio\n");
-        printf("%.0f\t%s\t%.2f\n", productos[i][0], nombreProductos[i], productos[i][1]);
+        printf("%f\t%s\t%.2f\n", productos[i][0], nombreProductos[i], productos[i][1]);
         }
             break;    
         }
