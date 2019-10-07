@@ -19,7 +19,7 @@ int main(){
         scanf("%f", &perros[i].peso);
     }
 
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < 2; i++)
     {
         printf("El peso de %s es %.2f kg y su edad es %i meses\n", perros[i].nombre, perros[i].peso, perros[i].edadMeses);
     }
