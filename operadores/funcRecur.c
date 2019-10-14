@@ -21,7 +21,7 @@ long Factorial(long numero){
     if(numero<=1){
         return 1;
     }else{
-       return(numero * Factorial(numero-1));
-        //return Factorial(numero-1) + Factorial(numero-2);
+       //return(numero * Factorial(numero-1));
+        return Factorial(numero-1) + Factorial(numero-2);
         }
 }
